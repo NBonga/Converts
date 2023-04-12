@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    padding: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color:honeydew;
+}
