@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <link rel="stylesheet" href = "regform.css">   
+        <script src="regform.js"></script>
+    </head>
+    <body>
+        <h1>DEVELOPER REGISTRATION</h1>
+        <form class="form" onsubmit="return false">  
+
+            <label for="name"><b>Name</b></label>
+            <br>
+            <input type="text" placeholder="Enter Name" name="name" id="name" required>
+            <br>
+
+            <label for="surname"><b>Surname</b></label>
+            <br>
+            <input type="text" placeholder="Enter Surname" name="surname" id="surname" required>
+            <br>
+
+            <label for="email"><b>Email</b></label>
+            <br>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            <br>
+
+            <label for="country"><b>Country</b></label>
+            <br>
+            <input type="text" placeholder="Enter Country" name="country" id="country" required>
+            <br>
+
+            <label for="origin"><b>Origin</b></label>
+            <br>
+            <input type="text" placeholder="Enter Origin" name="origin" id="origin" required>
+            <hr>
+            
+            <button type="submit" onclick="getValues()">REGISTER</button>
+        </form>
+    </body>
+</html>
